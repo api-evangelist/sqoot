@@ -26,7 +26,7 @@ x-status-note: 'Enrichment 2026-07-21: sqoot.com (formerly a local/daily-deals a
   API from the ~2011-2013 500 Startups era) is defunct; the domain now 301-redirects
   to an unrelated Disney travel agency (mouseketrips.com). No live developer portal,
   API documentation, SDKs, or public specs exist. No API artifacts could be honestly created.'
-specificationVersion: '0.20'
+specificationVersion: '0.23'
 created: '2026-07-17'
 modified: '2026-07-21'
 tags:
