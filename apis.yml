@@ -18,11 +18,13 @@ accessModel:
   public: false
   label: Unknown
   confidence: low
-  source: []
+  source:
+  - url: https://sqoot.com
+    status: 301
+    note: declared website redirects to https://www.mouseketrips.com/ — a different registrable domain
+      (sqoot.com -> mouseketrips.com), possible rename or acquisition (probed 2026-09-03, roadmap#169)
   generated: '2026-07-22'
   method: derived
-  source:
-  - {url: 'https://sqoot.com', status: 301, note: 'declared website redirects to https://www.mouseketrips.com/ — a different registrable domain (sqoot.com -> mouseketrips.com), possible rename or acquisition (probed 2026-09-03, roadmap#169)'}
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/sqoot.png
 name: Sqoot
 description: Sqoot is a company surfaced as a portfolio company of 500-global and added to the API Evangelist
@@ -35,15 +37,16 @@ x-backed-by:
 x-tier: stub
 x-tier-reason: portfolio-lead
 x-status: defunct
-x-status-note: 'Enrichment 2026-07-21: sqoot.com (formerly a local/daily-deals aggregation
-  API from the ~2011-2013 500 Startups era) is defunct; the domain now 301-redirects
-  to an unrelated Disney travel agency (mouseketrips.com). No live developer portal,
-  API documentation, SDKs, or public specs exist. No API artifacts could be honestly created.'
+x-status-note: 'Enrichment 2026-07-21: sqoot.com (formerly a local/daily-deals aggregation API from the
+  ~2011-2013 500 Startups era) is defunct; the domain now 301-redirects to an unrelated Disney travel
+  agency (mouseketrips.com). No live developer portal, API documentation, SDKs, or public specs exist.
+  No API artifacts could be honestly created.'
 specificationVersion: '0.23'
 created: '2026-07-17'
-modified: '2026-07-21'
+modified: '2026-09-15'
 tags:
 - Company
+- Defunct
 apis: []
 maintainers:
 - FN: Kin Lane
